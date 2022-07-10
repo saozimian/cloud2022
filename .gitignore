@@ -1,0 +1,28 @@
+# 忽略文件夹
+.settings/
+target/
+*.class
+*.classpath
+*.project
+
+#IDEA 忽略文件夹
+*.iml
+.idea/
+
+# 日志 Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+/node_modules
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar

@@ -1,0 +1,17 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        group: TEST_GROUP
+        namespace: bbcdbf0e-a124-4b70-9f63-6acdf31a17cd
+#       dataId : ${prefix} - ${spring.profiles.active} . ${file-extension}
+#       dataId 对应的后缀也必须和 ${file-extension}保持一致
