@@ -10,10 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>nacos-provider-9001</module>
         <module>nacos-consumer-8001</module>
+        <module>nacos-provider-9001</module>
         <module>nacos-provider-9002</module>
         <module>alibaba-nacos-config-client</module>
+        <module>sentinel</module>
     </modules>
     <name>cloud2022</name>
     <properties>
@@ -22,9 +23,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <spring.boot.version>2.7.1</spring.boot.version>
+        <spring.boot.version>2.6.8</spring.boot.version>
         <spring.cloud.version>2021.0.3</spring.cloud.version>
-        <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
+        <spring.cloud.alibaba.version>2021.0.1.0</spring.cloud.alibaba.version>
     </properties>
 
     <dependencyManagement>
